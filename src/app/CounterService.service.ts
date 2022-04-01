@@ -17,6 +17,7 @@ export class CounterServiceService {
   {
     this.InactiveToActive++;
     console.log("Active:"+this.InactiveToActive);
+    coonsole.log("Inactive");
   }
 
 }
