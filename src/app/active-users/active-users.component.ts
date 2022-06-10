@@ -13,6 +13,7 @@ export class ActiveUsersComponent implements OnInit {
 
   ngOnInit(): void {
     this.users=this.userservice.activeUsers;
+    this.users=this.userservice.activeUsers;
   }
   onSetInactive(id:number){
     this.userservice.onSetInactive(id);
