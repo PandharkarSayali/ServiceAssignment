@@ -18,7 +18,7 @@ export class InactiveUsersComponent implements OnInit {
   onSetActive(id:number){
     this.userservice.onSetActive(id);
   
-   // console.log("abc");  
+    console.log("abc");  
       
    
   }
