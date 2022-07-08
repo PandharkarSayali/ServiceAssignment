@@ -78,7 +78,7 @@ public class Category extends Vehicle implements NewInterface {
     }
 
     boolean bar(int x, int y) {
-        return (x != y) ? diff(x) : same(y);
+        //return (x != y) ? diff(x) : same(y);
        return (x != y) ? diff(x) : same(y);
     }
 
